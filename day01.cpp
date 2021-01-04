@@ -27,6 +27,8 @@ private:
 string read_input()
 {
 	ifstream ifs {"input/1.txt"};
+	if (ifs.fail())
+		cerr << "failed to open '1.txt' for input\n";
 	string s;
 	ifs >> s;
 	return s;
