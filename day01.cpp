@@ -38,7 +38,7 @@ void day01()
 	Elevator el {0};
 	for (const auto& c : s)
 		el.move(c);
-	cout << "part a: " << el.floor() << '\n';
+	cout << "day1,part 1," << el.floor() << '\n';
 
 	int pos = 0;
 	el.floor(0);
@@ -47,5 +47,5 @@ void day01()
 		el.move(c);
 		++pos;
 	}
-	cout << "part b: " << pos << '\n';
+	cout << "day 1,part 2," << pos << '\n';
 }
