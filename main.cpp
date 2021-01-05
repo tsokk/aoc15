@@ -19,6 +19,9 @@ int main(int argc, char* argv[])
 	    case 2:
 	        day02();
 	        break;
+	    case 3:
+	        day03();
+	        break;
 	    default:
 	        std::cout << "not implemented yet\n";
 	        break;
