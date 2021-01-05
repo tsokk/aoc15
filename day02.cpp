@@ -62,7 +62,7 @@ void day02()
 {
 	ifstream ifs {"input/2.txt"};
 	if (ifs.fail())
-		cerr << "failed to open '2.tx2' for input\n";
+		cerr << "failed to open '2.txt' for input\n";
 
 	int part1_ans = 0;
 	int part2_ans = 0;
