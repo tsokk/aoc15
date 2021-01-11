@@ -53,7 +53,7 @@ vector<Instruction> read_input()
 		int curr_y =  stoi(matches[3]);
 		int curr_u = stoi(matches[4]);
 		int curr_w = stoi(matches[5]);
-		
+
 		Point a {curr_x,curr_y};
 		Point b {curr_u,curr_w};
 		vi.push_back({curr_op,a,b});
